@@ -1,4 +1,4 @@
-(defproject biiwide/aws-literals "0.0.1-SNAPSHOT"
+(defproject biiwide/aws-literals "0.0.1"
 
   :description "Tagged literals for AWS"
 
