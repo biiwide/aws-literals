@@ -1,11 +1,12 @@
 (ns biiwide.aws-literals-test
   (:require [clojure.test :refer :all]
-            [biiwide.aws-literals :refer :all]))
+            [biiwide.aws-literals :as awsl
+             :refer :all]))
 
 
 (deftest test-comma-separated
   (are [expected value]
-       (= expected (comma-separated value))
+       (= expected (#'awsl/comma-separated value))
 
        ["abc"]
        "  abc\n"

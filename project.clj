@@ -7,6 +7,8 @@
   :license {:name "Eclipse Public License 2.0"
             :url "https://www.eclipse.org/legal/epl-2.0"}
 
+  :deploy-repositories {"releases" {:url "https://repo.clojars.org" :creds :gpg}}
+
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [amazonica "0.3.121"
                   :exclusions [com.amazonaws/amazon-kinesis-client
