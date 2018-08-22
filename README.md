@@ -3,6 +3,11 @@
 
 ## Usage
 
+```
+(require 'biiwide/aws-literals)
+
+{:my-password #aws.ssm/parameter my.db.password}
+```
 
 ## License
 
